@@ -22,7 +22,7 @@
 <h2>ℹ️ Como utilizar</h2>
 
     Clone esse repositório
-    $ git clone git@github.com:douglasgvr/dogs-origamid.git
+    $ git clone git@github.com:douglasgvr/dogs-rede-social.git
 
     Instalar dependências
     $ npm install
