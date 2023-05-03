@@ -66,6 +66,8 @@ export const UserStoroge = ({ children }) => {
         } finally {
           setLoading(false);
         }
+      } else {
+        setLogin(false);
       }
     }
 
