@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { UserStoroge } from "./UserContext";
 import User from "./Components/User/User";
 import ProtectedRoute from "./Components/Help/ProtectedRoute";
+import Photo from "./Components/Photo/Photo";
 
 class App extends Component {
   render() {
@@ -28,6 +29,7 @@ class App extends Component {
                   </ProtectedRoute>
                 }
               />
+              <Route path="foto/:id" element={<Photo />} />
             </Routes>
             <Footer />
           </UserStoroge>
